@@ -1,1 +1,19 @@
+Sign in to Teams
+
+Start Teams.
+
+In Windows, click Start > Microsoft Teams.
+
+On Mac, go to the Applications folder and click Microsoft Teams.
+
+On mobile, tap the Teams icon.
+
+Sign in with your Microsoft 365 username and password.
+
+Note
+Teams is a part of Microsoft 365, so you need a Microsoft 365 Apps for business or Enterprise license to use it. For details, see How d
+
+
+
+
 welcome
