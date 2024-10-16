@@ -35,3 +35,41 @@ This query sorts employees by their last names in ascending order
 Using Aggregate Functions
 
 Aggregate functions perform calculations on multiple rows of a table and return a single value. Common aggregate functions include SUM(), COUNT(), AVG(), MIN(), and MAX():
+
+To retrieve all columns from a table, you can use the SELECT * statement:
+
+SELECT * FROM employees;
+This query selects all columns from the employees table
+1
+.
+
+Selecting Specific Columns
+
+To select specific columns, list the column names separated by commas:
+
+SELECT first_name, last_name FROM employees;
+This query retrieves the first_name and last_name columns from the employees table
+1
+.
+
+Filtering Data with WHERE Clause
+
+The WHERE clause is used to filter records based on specific conditions:
+
+SELECT first_name, last_name FROM employees WHERE salary > 3800;
+This query selects employees with a salary greater than 3800
+1
+.
+
+Sorting Data with ORDER BY
+
+The ORDER BY clause sorts the result set by one or more columns:
+
+SELECT first_name, last_name FROM employees ORDER BY last_name ASC;
+This query sorts employees by their last names in ascending order
+1
+.
+
+Using Aggregate Functions
+
+Aggregate functions perform calculations on multiple rows of a table and return a single value. Common aggregate functions include SUM(), COUNT(), AVG(), MIN(), and MAX():
