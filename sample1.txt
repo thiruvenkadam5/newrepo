@@ -1,0 +1,7 @@
+Git is a distributed version control system that allows you to track changes in your code during software development. GitHub is a platform for hosting Git repositories, making it easier to collaborate on projects. Understanding Git commands is essential for managing your codebase and contributing to projects effectively.
+
+Basic Git Commands
+
+Here's a rundown of some basic Git commands that you'll use regularly:
+
+git init: Initializes a new Git repository and begins tracking an existing directory. It creates a new subdirectory named .git that houses all of your necessary repository files — a Git repository skeleton. Use this in the root of your project to start using Git.
