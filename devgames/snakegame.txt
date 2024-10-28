@@ -1,0 +1,18 @@
+dmesg: Contains messages from the kernel ring buffer, often regarding hardware and driver issues.
+
+Files like dmesg.1.gz, dmesg.2.gz, etc.: Older compressed versions of dmesg.
+dpkg.log: Tracks package management activities from apt, such as package installations, updates, and removals.
+
+lastlog: Database of the most recent login times for each user. It’s viewed using the lastlog command.
+
+wtmp and btmp:
+
+wtmp records login and logout history for users. It’s viewed with the last command.
+btmp logs failed login attempts and can be viewed with lastb.
+cloud-init.log and cloud-init-output.log: These logs track events related to cloud-init, a tool used in cloud environments to initialize cloud instances (e.g., setting up SSH keys, configuring network settings).
+
+journal: Likely contains systemd journal logs, which provide detailed logs for each systemd service. You can view these logs with journalctl.
+
+unattended-upgrades: Logs details of automatic security updates.
+
+Application-Specific Logs
