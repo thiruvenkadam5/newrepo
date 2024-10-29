@@ -1,0 +1,20 @@
+<VirtualHost *:80>
+    ServerName your_domain.com
+
+    DocumentRoot /path/to/webserver/root  # Path to your React build folder
+
+    <Directory /path/to/webserver/root>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ProxyPass /api http://localhost:8080/  # Change to your Java app's port
+    ProxyPassReverse /api http://localhost:8080/
+
+    <FilesMatch "\.php$">
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+    DocumentRoot /path/to/php/folder  # Path to your PHP files
+</VirtualHost>
